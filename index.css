@@ -1,3 +1,9 @@
+#body{
+  padding: 0px;
+  margin: 0px;
+}
+
+
 .video_contain{
   display: block;
   position: absolute;
@@ -12,9 +18,9 @@
   height: 100%;
   }
   
-  #video {
-  min-width: 100%;
-   min-height: 100%;
+  .video_contain {
+  max-width: 100vh;
+  max-height: 100vh;
   z-index: -100;
   background-position: center;
   background-size: cover;
@@ -26,7 +32,7 @@
     bottom: 20%;
     color: black;
     width: 100%;
-    padding: 25px;
+    padding: 20px;
     font-size: 1rem;
   }
 
