@@ -69,5 +69,15 @@ body{
       padding-right: 10px;
       color: black;
     }
+
+    .Console{
+
+  position: absolute;
+  margin-left: 50vw;
+  margin-top: 45vh;
+  color: darkgreen;
+  font-size: 1.8rem;
+
+    }
       
 
