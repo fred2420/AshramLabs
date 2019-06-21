@@ -1,8 +1,26 @@
-#body{
+body{
   padding: 0px;
   margin: 0px;
+
+}
+.slides__slide h1{
+  font: 3rem;
+  text-align: center;
+
+  
 }
 
+.topnav-right{
+  float: right;
+  margin: 40px;
+  padding-right: 50px;
+}
+
+.topnav-right a{
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+}
 
 .video_contain{
   display: block;
@@ -33,7 +51,7 @@
     color: black;
     width: 100%;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   #home {
@@ -49,7 +67,7 @@
    
     .SideMenuItem p {
       padding-right: 10px;
-      color: white;
+      color: black;
     }
       
 

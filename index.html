@@ -13,49 +13,92 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
+    <script>
+        $(function() {
+          $.scrollify({
+            section : ".slides__slide",
+          });
+        });
+      </script>
 </head>
-
 <body>
 
-    <div class="video_contain">
-        <video autoplay muted id="myVideo" style="width:100vw">
-            <source src="Frontpage.mp4" type="video/mp4">
+<section class="slides__slide">
+
+        <div class="topnav-right">
+                <a href="#search">Industries </a>
+                <a href="#search">Contact </a>
+                <a href="#about">Team</a>
+              </div>
+
+        <div class="video_contain">
+            <video autoplay muted id="myVideo" style="width:100vw">
+                <source src="Frontpage.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+           <div class="SideMenuItem" style=" color: black;"> 
+           <p style=" color: black;">|</p>
+            <p  style=" color: black;"> ASHRAM LABS </p>
+        </div>
+        <div class="SideMenuItem"> 
+                <p>|</p>
+                 <p>SERVICES </p>
+             </div>
+             <div class="SideMenuItem"> 
+                    <p>|</p>
+                     <p>DATA SCIENCE</p>
+            </div>
+            <div class="SideMenuItem"> 
+                    <p>|</p>
+                     <p>SOFTWARE </p>
+            </div>
+            <div class="SideMenuItem"> 
+                    <p>|</p>
+                     <p>MECHANICAL</p>
+            </div>
+            <div class="SideMenuItem"> 
+                    <p>|</p>
+                     <p>EMBEDDED </p>
+            </div>
+            <div class="SideMenuItem"> 
+                    <p>|</p>
+                     <p>HARDWARE </p>
+            </div>
+                 
+    </div>
+</section>
+
+<section class="slides__slide">
+    <h1>SERVICES</h1>
+</section>
+
+<section class="slides__slide">
+    <h1>DATA SCIENCE</h1>
+</section>
+<section class="slides__slide">
+    <h1> SOFTWARE</h1>
+</section>
+<section class="slides__slide">
+    <h1> MECHINAICAL </h1>
+</section>
+<section class="slides__slide">
+    <div >
+        <video autoplay loop muted id="myVideo" style="width:100vw; margin-top: -120px;">
+            <source src="Embedded.mp4" type="video/mp4">
         </video>
     </div>
+   
+</section>
+<section class="slides__slide">
+    <h1> HARDWARE</h1>
+</section>
 
 
-    <!-- Optional: some overlay text to describe the video -->
-    <div class="content">
-       <div class="SideMenuItem" style=" color: black;"> 
-       <p style=" color: black;">|</p>
-        <p  style=" color: black;"> ASHRAM LABS </p>
-    </div>
-    <div class="SideMenuItem"> 
-            <p>|</p>
-             <p>SERVICES </p>
-         </div>
-         <div class="SideMenuItem"> 
-                <p>|</p>
-                 <p>HARDWARE </p>
-        </div>
-        <div class="SideMenuItem"> 
-                <p>|</p>
-                 <p>EMBEDDED </p>
-        </div>
-        <div class="SideMenuItem"> 
-                <p>|</p>
-                 <p>SOFTWARE </p>
-        </div>
-        <div class="SideMenuItem"> 
-                <p>|</p>
-                 <p>DESGIN </p>
-        </div>
-        <div class="SideMenuItem"> 
-                <p>|</p>
-                 <p>DATA </p>
-        </div>
-             
-</div>
+
 
     <script src="" async defer></script>
 </body>
