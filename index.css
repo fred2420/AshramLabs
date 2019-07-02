@@ -70,8 +70,9 @@ body{
       color: black;
     }
 
-    .Console{
+  
 
+    .Console{
   position: absolute;
   margin-left: 50vw;
   margin-top: 45vh;
@@ -80,4 +81,19 @@ body{
 
     }
       
+    .Carousel{
+      background: url(img/carousel/NB-IOTTracking.png) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  .WhatWeDo{
+    background: url(img/WhatWeDO.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
 

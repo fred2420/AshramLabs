@@ -1,16 +1,4 @@
-var i = 0;
-var txt = '> Mesh Networking  \r\n \n > RTOS';
-var speed = 50;
 
-typeWriter();
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("Console").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
 
 
 
@@ -34,3 +22,11 @@ $.scrollify({
   });
 
 
+  $('#steve').on('afterChange', function(slick, slide){
+    alert("changing index");
+    // left
+});
+
+$('.lazy slider').on('afterChange', function(event, slick, direction){
+  alert();
+});
