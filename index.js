@@ -30,3 +30,7 @@ $.scrollify({
 $('.lazy slider').on('afterChange', function(event, slick, direction){
   alert();
 });
+
+
+
+

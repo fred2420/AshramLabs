@@ -18,6 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.0.min.js"></script>
+  <script type="text/javascript">
+      Bokeh.set_log_level("info");
+  </script>
     <script>
         $(function() {
           $.scrollify({
@@ -166,14 +170,15 @@
   <video autoplay loop muted id="myVideo" style="width:100vw; margin-top: -120px;">
     <source src="img/Video/WhatWeDO.mp4" type="video/mp4">
   </video>
-
 </section>
 
     
 </section>
 
-<section class="slides__slide">
-    <h1>DATA SCIENCE</h1>
+<section class="slides__slide" style="background: url(img/Datascience.png) no-repeat center center fixed">
+  
+  <div class="bk-root" id="ee74a303-d664-4915-8f46-c970cc15f8e6" data-root-id="2434"></div>
+
 </section>
 <section class="slides__slide">
   <video autoplay loop muted id="myVideo" style="width:100vw; margin-top: -120px;">
@@ -235,5 +240,7 @@
       });
   </script>
 </body>
+
+<script type="text/javascript" src="Bokeh_Plot.js"></script>
 
 </html>
