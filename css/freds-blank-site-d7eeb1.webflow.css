@@ -2327,6 +2327,33 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .div-block-33 {
+    position: fixed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .div-block-34 {
+    position: fixed;
+  }
+  .paragraph-15 {
+    position: fixed;
+    margin-top: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: Bell, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
 }
 
 #w-node-ee47560dc816-b4ccf4cc {
