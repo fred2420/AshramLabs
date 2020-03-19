@@ -1710,6 +1710,11 @@
   background-color: rgba(255, 16, 16, 0);
 }
 
+.text-span {
+  color: #63d0f8;
+  font-size: 45px;
+}
+
 @media screen and (max-width: 991px) {
   .background-video {
     display: none;
