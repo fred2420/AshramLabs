@@ -265,8 +265,9 @@
   position: relative;
   z-index: 1;
   margin-top: 25px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 0px;
+  padding-right: 60px;
+  padding-left: 140px;
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
   -ms-flex-order: -1;
@@ -1700,6 +1701,10 @@
   display: none;
 }
 
+.lottie-animation-4 {
+  display: block;
+}
+
 .background-video-17 {
   position: static;
 }
@@ -1713,6 +1718,28 @@
 .text-span {
   color: #63d0f8;
   font-size: 45px;
+}
+
+.image-21 {
+  width: 30vw;
+}
+
+.background-video-19 {
+  display: none;
+}
+
+.div-block-36 {
+  position: static;
+  width: 50vh;
+  height: 50vh;
+  margin-top: -35vh;
+  margin-left: 60vw;
+  clear: none;
+}
+
+.background-video-20 {
+  position: relative;
+  margin-top: -35vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -2541,8 +2568,9 @@
     display: none;
   }
   .background-video-16 {
-    width: 100px;
-    height: 100px;
+    width: 50vw;
+    height: 40vw;
+    margin-left: 25vw;
   }
   .findmee {
     background-color: rgba(252, 5, 5, 0);
@@ -2550,6 +2578,9 @@
   .background-video-18 {
     width: 100vw;
     height: 75vw;
+  }
+  .image-21 {
+    width: 80vw;
   }
 }
 
