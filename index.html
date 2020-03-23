@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Mar 21 2020 21:35:34 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Mar 23 2020 10:50:43 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5d53bd2314013171b4ccf4cc" data-wf-site="5d53bd23140131b717ccf4cb">
 <head>
   <meta charset="utf-8">
@@ -138,7 +138,7 @@ overflow-x: hidden;
     <div data-w-id="5a9c1b3c-efac-b821-a28d-a8d05e83b58c" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5d53bd23140131b717ccf4cb/5e497b0e353d4567d4b4b119_Squat.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="28.028026886423113" data-duration="0" id="w-node-a8d05e83b58c-b4ccf4cc"></div>
   </div>
   <div id="Software" data-w-id="e303cadf-c0b9-ff69-25ab-3df950476861" class="software">
-    <div data-w-id="03fc6c6f-4d7a-904a-2664-e205473ea84f" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5d53bd23140131b717ccf4cb/5e1b3aac19c05cdafe940a96_SoftwareF.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5.4" data-duration="0"></div>
+    <div data-w-id="03fc6c6f-4d7a-904a-2664-e205473ea84f" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5d53bd23140131b717ccf4cb/5e1b3aac19c05cdafe940a96_SoftwareF.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5.4" data-duration="0" class="lottie-animation-6"></div>
     <div class="div-block-5">
       <h1 class="titles">SOFTWARE</h1>
       <p class="infotext"><span class="text-span">W</span>riting Software for IOT can present some unique challenges. Devices in the field can produce huge quantities of data not all can be streamed directly to the cloud. Software needs to be split between the edge where data is pre processed before results are sent to the cloud</p>
@@ -224,7 +224,15 @@ overflow-x: hidden;
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript"> 
-
+$( document ).ready(function() {
+    console.log( "ready!" );
+     document.getElementById('Altium').removeAttribute("data-loop");
+});
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+console.log("hi")
+document.getElementById('Altium').removeAttribute("data-loop");
+}
 </script>
 </body>
 </html>

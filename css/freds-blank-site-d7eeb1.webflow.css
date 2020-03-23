@@ -494,8 +494,8 @@
 
 .div-block-5 {
   display: block;
-  width: 45%;
-  min-width: 45%;
+  width: 45vw;
+  min-width: 45vw;
   padding-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1740,6 +1740,10 @@
 .background-video-20 {
   position: relative;
   margin-top: -35vh;
+}
+
+.lottie-animation-6 {
+  width: 45vw;
 }
 
 @media screen and (max-width: 991px) {
