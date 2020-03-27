@@ -267,6 +267,7 @@
   z-index: 1;
   margin-top: 25px;
   margin-right: 0px;
+  margin-left: 7vw;
   padding-right: 60px;
   padding-left: 0px;
   -webkit-box-ordinal-group: 0;
@@ -1029,7 +1030,7 @@
   display: block;
   margin-top: -38vh;
   margin-right: 43vw;
-  margin-left: 7vw;
+  margin-left: 10vw;
 }
 
 .heading-11 {
@@ -1134,6 +1135,8 @@
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: transparent;
+  font-size: 1vw;
+  line-height: 1.4vw;
 }
 
 .sidemenulinks {
@@ -1704,6 +1707,10 @@
 
 .lottie-animation-4 {
   display: block;
+}
+
+.background-video-16 {
+  margin-left: 7vw;
 }
 
 .background-video-17 {
