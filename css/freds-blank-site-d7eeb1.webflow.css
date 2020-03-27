@@ -251,7 +251,7 @@
   width: 100%;
   height: 90%;
   padding-right: 10vw;
-  padding-left: 10vw;
+  padding-left: 7vw;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -267,7 +267,7 @@
   z-index: 1;
   margin-top: 25px;
   margin-right: 0px;
-  margin-left: 7vw;
+  margin-left: auto;
   padding-right: 60px;
   padding-left: 0px;
   -webkit-box-ordinal-group: 0;
@@ -279,6 +279,10 @@
   font-size: 1vw;
   line-height: 2vw;
   text-align: center;
+}
+
+.infotext.aitext {
+  margin-left: 7vw;
 }
 
 .heading-3 {
@@ -602,7 +606,7 @@
 }
 
 .list-2 {
-  margin-top: -43px;
+  margin-top: auto;
   margin-bottom: 0px;
 }
 
@@ -1709,7 +1713,13 @@
   display: block;
 }
 
+.div-block-35 {
+  font-size: 1vw;
+  line-height: 1.7vw;
+}
+
 .background-video-16 {
+  width: 45vw;
   margin-left: 7vw;
 }
 
@@ -1752,6 +1762,14 @@
 
 .lottie-animation-6 {
   width: 45vw;
+}
+
+.lottie-animation-7 {
+  width: 45vw;
+}
+
+.lottie-animation-8 {
+  height: 35vh;
 }
 
 @media screen and (max-width: 991px) {
