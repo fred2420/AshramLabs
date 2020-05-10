@@ -267,7 +267,7 @@
   z-index: 1;
   margin-top: 25px;
   margin-right: 0px;
-  margin-left: auto;
+  margin-left: 0px;
   padding-right: 60px;
   padding-left: 0px;
   -webkit-box-ordinal-group: 0;
@@ -1023,6 +1023,8 @@
 
 .heading-10 {
   position: static;
+  margin-left: auto;
+  padding-left: 0px;
   font-family: 'Droid Serif', serif;
   color: #686868;
   font-size: 10vh;
@@ -1032,7 +1034,7 @@
 .div-block-16 {
   position: absolute;
   display: block;
-  margin-top: -38vh;
+  margin-top: -12vh;
   margin-right: 43vw;
   margin-left: 10vw;
 }
@@ -1089,6 +1091,7 @@
 }
 
 .image-14 {
+  margin-top: 2px;
   margin-right: -40px;
   margin-left: 0px;
 }
@@ -1827,6 +1830,123 @@
   color: #333;
 }
 
+.image-24 {
+  max-width: none;
+  float: right;
+}
+
+.heading-18 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.image-25 {
+  margin-top: -15%;
+  float: right;
+}
+
+.div-block-38 {
+  margin-top: -15%;
+}
+
+.div-block-39 {
+  margin-top: -15%;
+}
+
+.image-26 {
+  width: auto;
+  max-width: none;
+}
+
+.div-block-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -7%;
+}
+
+.div-block-40.right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.div-block-40.top {
+  margin-top: 0%;
+}
+
+.div-block-41 {
+  width: 50%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.container-5 {
+  padding-top: 15%;
+}
+
+.div-block-42 {
+  width: 100vw;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.personheading {
+  color: #8d8c8c;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.heading-20 {
+  color: #8d8c8c;
+}
+
+.infotext-copy {
+  position: relative;
+  z-index: 1;
+  margin-top: 25px;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  font-family: 'Droid Serif', serif;
+  color: #333;
+  font-size: 1vw;
+  line-height: 2vw;
+  text-align: center;
+}
+
+.infotext-copy.aitext {
+  margin-left: 7vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .div-block-40 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div-block-41 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .background-video {
     display: none;
@@ -2079,6 +2199,15 @@
   }
   .image-22 {
     width: 100%;
+  }
+  .infotext-copy {
+    position: relative;
+    width: auto;
+    margin-right: 0vw;
+    margin-left: 5vw;
+    padding-right: 0px;
+    font-size: 1em;
+    line-height: 26px;
   }
 }
 
@@ -2340,7 +2469,8 @@
     min-width: auto;
   }
   .heading-9 {
-    margin-left: -98px;
+    margin-right: 0px;
+    margin-left: -81px;
     font-size: 50px;
   }
   .div-block-16 {
@@ -2366,13 +2496,12 @@
     justify-content: space-around;
   }
   .heading-11 {
-    margin-top: -20px;
-    margin-bottom: -40px;
-    margin-left: -120px;
+    margin: -20px 20px -40px -120px;
     padding-bottom: 0px;
     font-size: 40px;
   }
   .div-block-17 {
+    margin-left: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2381,6 +2510,8 @@
   }
   .image-14 {
     width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
   }
   .paragraph-9 {
     margin-top: 10vh;
@@ -2734,6 +2865,20 @@
   }
   .div-block-36 {
     display: none;
+  }
+  .div-block-40 {
+    display: block;
+  }
+  .div-block-41 {
+    width: 100%;
+  }
+  .infotext-copy {
+    display: block;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 10px;
+    line-height: 20px;
   }
 }
 
